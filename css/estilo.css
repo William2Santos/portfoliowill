@@ -1,0 +1,35 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-image: url("estrelas.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: auto 100vh;
+    height: 100vh;
+}
+
+.menu {
+    background: white;   
+}
+.menu ul {   /*Essa tag UL é a tag geral do menu*/
+    display: flex;
+    justify-content: space-around; /*Distribui de forma mais organizada o menu*/
+
+}
+a {
+    color: teal;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.site-titulo, .site-subtitulo {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.site-subtitulo {
+    font-style: italic;
+}
+
